@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap lab-1 - calculate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./calc.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Головна</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="calculate.html">Калькулятор</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="accoutns.html">Акаунт</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="log.html">Авторизація</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reg.html">Реєстрація</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- content -->
+    <div class="container my-5">
+        <div class="flex-container">
+            <div class="calculator">
+              <div class="brand">Standard calculator</div>
+              <div class="screen">
+                <p id="chain"></p>
+                <p id="result"></p>
+              </div>
+              <div class="row">
+                <button id="CE" class="operator" type="button">CE</button>
+                <button id="C" class="operator" type="button">C</button>
+                <button id="backspace" class="operator" type="button"><i class="fa fa-long-arrow-left"></i></button>
+                <button id="division" class="operator" type="button">/</button>
+              </div>
+              <div class="row">
+                <button id="num7" type="button">7</button>
+                <button id="num8" type="button">8</button>
+                <button id="num9" type="button">9</button>
+                <button id="multiplication" class="operator" type="button">x</button>
+              </div>
+              <div class="row">
+                <button id="num4" type="button">4</button>
+                <button id="num5" type="button">5</button>
+                <button id="num6" type="button">6</button>
+                <button id="subtraction" class="operator" type="button">-</button>
+              </div>
+              <div class="row">
+                <button id="num1" type="button">1</button>
+                <button id="num2" type="button">2</button>
+                <button id="num3" type="button">3</button>
+                <button id="addition" class="operator" type="button">+</button>
+              </div>
+              <div class="row">
+                <button id="num0" class="zero" type="button">0</button>
+                <button id="dot" class="operator" type="button">.</button>
+                <button id="equals" class="operator" type="button">=</button>
+              </div>
+            </div>
+          </div>
+    </div>    
+    <!-- footer -->
+    <footer class="bg-light text-lg-start">
+  <!-- Grid container -->
+  <div class="p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Богдан Симонов</h5>
+
+        <p>
+          Виконавець цієї лабораторної роботи.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Bootstrap</h5>
+
+        <p>
+            Bootstrap — це безкоштовний набір інструментів з відкритим кодом, призначений для створення вебсайтів та вебдодатків, який містить шаблони CSS та HTML для типографіки, форм, кнопок, навігації та інших компонентів інтерфейсу, а також додаткові розширення JavaScript. Він спрощує розробку динамічних вебсайтів і вебдодатків.
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Лабораторна робота №1
+  </div>
+  <!-- Copyright -->
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./calc.js"></script>
+</body>
+
+</html>
